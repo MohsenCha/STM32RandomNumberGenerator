@@ -8,6 +8,10 @@
 #ifndef RANDOM_NUMBER_GENERATOR_H_
 #define RANDOM_NUMBER_GENERATOR_H_
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include <stdint.h>
 
 // *** RNG Configuration Parameters ***
@@ -25,4 +29,9 @@ void RNG_Low_Power_Disable(void);
 void RNG_Disable(void);
 uint8_t RNG_Data_Read(uint32_t* random_value);
 
+#ifdef __cplusplus
+}
+#endif
+
 #endif /* RANDOM_NUMBER_GENERATOR_H_ */
+

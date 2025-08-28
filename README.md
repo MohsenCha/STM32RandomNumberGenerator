@@ -4,7 +4,7 @@ The RNG is a co-processor on STM32 MCUs for generating true random numbers.
 This libray is based on HAL/LL drivers for initialization and working with RNG feature in stm32 MCUs.
 
 # Limitation:
-- Interrupt and Low-power modes are not yet supported. don not try to uncomment related parts.
+- Interrupt and Low-power modes are not yet supported. do not try to uncomment related parts.
 # Target Hardware Families:
 - STM32F4xx family
 # Description:
